@@ -1,0 +1,11 @@
+.main {
+    display: flex;
+    column-gap: 50px;
+}
+
+.main-container {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}

@@ -1,0 +1,13 @@
+.cell {
+    width: 38px;
+    height: 38px;
+    border: 1px black solid;
+}
+
+.cell_active {
+    background-color: #348ceb;
+}
+
+.cell_default {
+    background-color: white;
+}

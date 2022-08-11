@@ -1,0 +1,19 @@
+.picker-container {
+    display: flex;
+    column-gap: 20px;
+}
+
+.button-picker {
+    background-color: #5c62fa;
+    color: white;
+    padding: 0 20px;
+    border-radius: 5px;
+    border-width: 0;
+    font-weight: bold;
+}
+
+.select {
+    height: 30px;
+    width: 150px;
+    border-width: 2px;
+}
