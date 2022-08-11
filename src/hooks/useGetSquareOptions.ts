@@ -6,7 +6,7 @@ export const useGetSquareOptions = () => {
   const [options, setOptions] = useState<SquareOption[]>();
 
   const getSquareOptions = useCallback(async () => {
-    const response = await axios("http://demo7919674.mockable.io/");
+    const response = await axios("https://demo7919674.mockable.io/");
 
     const data = response.data;
 
