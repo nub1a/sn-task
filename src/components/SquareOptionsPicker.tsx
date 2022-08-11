@@ -56,7 +56,11 @@ const SquareOptionsPicker: React.FC = () => {
   return (
     <div className="picker-container">
       {Select}
-      <button className="button-picker" onClick={onConfirm}>START</button>
+      {options && (
+        <button className="button-picker" onClick={onConfirm}>
+          START
+        </button>
+      )}
     </div>
   );
 };
